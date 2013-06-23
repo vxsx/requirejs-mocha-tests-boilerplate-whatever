@@ -1,0 +1,19 @@
+{
+    "name": "requirejs-tests-boilerplate-whatever",
+    "version": "0.1.0",
+    "private": true,
+    "ignore": [
+        "js",
+        "test",
+        "node_modules",
+        "Gruntfile.js"
+    ],
+    "dependencies": {
+        "jquery": "~1.10.1"
+    },
+    "devDependencies": {
+        "mocha": "~1.9.0",
+        "requirejs": "~2.1.6",
+        "chai": "~1.6.0"
+    }
+}
