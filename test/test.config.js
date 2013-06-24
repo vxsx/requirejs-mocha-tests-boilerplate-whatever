@@ -5,7 +5,14 @@ require.config({
     baseUrl: '/',
     paths: {
         jquery: '/js/vendor/jquery/jquery',
-        chai: '/js/vendor/chai/chai'
+        chai: '/js/vendor/chai/chai',
+        sinon: '/js/vendor/sinon/index',
+        sinonchai: '/js/vendor/sinon-chai/lib/sinon-chai'
+    },
+    shim: {
+        sinon: {
+            exports: 'sinon'
+        }
     }
 });
 
