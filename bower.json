@@ -1,21 +1,21 @@
 {
-    "name": "requirejs-tests-boilerplate-whatever",
-    "version": "0.1.1",
-    "private": true,
-    "ignore": [
-        "js",
-        "test",
-        "node_modules",
-        "Gruntfile.js"
-    ],
-    "dependencies": {
-        "jquery": "~1.10.1"
-    },
-    "devDependencies": {
-        "mocha": "~1.9.0",
-        "requirejs": "~2.1.6",
-        "chai": "~1.6.0",
-        "sinon": "http://sinonjs.org/releases/sinon-1.7.3.js",
-        "sinon-chai": "~2.4.0"
-    }
+  "name": "requirejs-tests-boilerplate-whatever",
+  "version": "0.1.2",
+  "private": true,
+  "ignore": [
+    "js",
+    "test",
+    "node_modules",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": "git://github.com/components/jquery.git#~1.10.1"
+  },
+  "devDependencies": {
+    "mocha": "git://github.com/visionmedia/mocha.git",
+    "requirejs": "git://github.com/jrburke/requirejs",
+    "chai": "git://github.com/chaijs/chai.git",
+    "sinon": "http://sinonjs.org/releases/sinon-1.7.3.js",
+    "sinon-chai": "git://github.com/domenic/sinon-chai.git"
+  }
 }
